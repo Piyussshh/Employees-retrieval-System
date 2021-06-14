@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="/stylesheet/app.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+</head>
+<body>
+    <div id="top-border"></div>
+    <div class="jumbotron pt-4">
+       <div class="container">
+        <div class="media d-flex align-items-end justify-content-start">
+            <img src="https://www.ongcindia.com/wps/wcm/connect/e216d987-2812-428f-b7a4-d0120d8ba406/logo.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-e216d987-2812-428f-b7a4-d0120d8ba406-l19jnvr" alt="">
+            <h4 class="text-maroon pr-4">Oil and Natural Gas Corporation Limited</h4>
+        </div>
+    
+        <p class="lead">ONGC Represents India's Energy Security Through its Pioneering Efforts. Maharatna ONGC is the largest crude oil and natural gas Company in India, contributing around 75 per cent to Indian domestic production. ..</p>
+        <hr class="my-4">
+    </div>
+</div>
+    
+
+   <div class="container">
+   	<div class="main">
+   		<div class="row">
+   			<div class="col-lg-4">
+   				<div class="avatar d-flex align-items-start justify-content-center">
+   					<img src="<%= blog.image %>">
+   				</div>
+   				<p class="text-center"><b><%= blog.title %></b></p>
+   					<p class="text-center"><b><%=blog.desingnation %></b></p>
+   			</div>
+   			<div class="col-lg-4">
+   				<ul>
+   					<li><b>Name: </b><%= blog.title %></li>
+   					<li><b>DOB: </b><%=blog.dob %></li>
+   					<li><b>Email: </b><%=blog.email %></li>
+   				</ul>
+   				
+   			</div>
+   			<div class="col-lg-4">
+   				<ul>
+   					<li><b>Last Name: </b><%=blog.lname%></li>
+   					<li><b>Room:</b> l0</li>
+   					<li><b>Personal webpage:</b> Example.com</li>
+   				</ul>
+   			</div>
+   		</div>
+   		<hr>
+   	</div>
+
+   <div class="details p-3">
+   	 	<h3 class="text-center">Details</h3>
+
+   	 	<h6>Qualifications:- </h6>
+   	 	<p><%=blog.qualification%></p>
+
+   	 	<h6>Area of interest/Specialisation</h6>
+   	 	<p><%=blog.interest%></p>
+
+   	 	<h6>Experience:- </h6>
+   	 	<p><%=blog.experience%></p>
+
+
+        <p>Oil and Natural Gas Corporation (ONGC) is an Indian public sector multinational crude oil and gas company. Its registered office is in New Delhi. It is owned by the Government of India, under the administrative control of the Ministry of Petroleum and Natural Gas. It is the largest oil and gas exploration and production company in the country, and produces around 70% of India's crude oil (equivalent to around 57% of the country's total demand) and around 84% of its natural gas. In November 2010, the Government of India conferred the Maharatna status to ONGC.
+
+In a survey by Government of India for fiscal year 2019–20, it was ranked as the largest profit making PSU in India. It is ranked 7th among the Top 250 Global Energy Companies by Platts.</p>
+        <p>
+        	ONGC was founded on 14 August 1956 by Government of India. It is involved in exploring for and exploiting hydrocarbons in 26 sedimentary basins of India, and owns and operates over 11,000 kilometers of pipelines in the country. Its international subsidiary ONGC Videsh currently has projects in 17 countries. ONGC has discovered 6 of the 7 commercially producing Indian Basins, in the last 50 years, adding over 7.15 billion tonnes of In-place Oil & Gas volume of hydrocarbons in Indian basins. Against a global decline of production from matured fields, ONGC has maintained production from its brownfields like Mumbai High, with the help of aggressive investments in various IOR (Improved Oil Recovery) and EOR (Enhanced Oil Recovery) schemes. ONGC has many matured fields with a current recovery factor of 25–33%. Its Reserve Replacement Ratio for between 2005 and 2013, has been more than one. During FY 2012–13, ONGC had to share the highest ever under-recovery of INR 89765.78 billion (an increase of INR 17889.89 million over the previous financial year) towards the under-recoveries of Oil Marketing Companies (IOC, BPCL and HPCL)
+        </p>
+
+        <hr>
+
+        <h4>Important Links:- </h4>
+
+        <h6>Salary card:-</h6>
+        <a href="../files/Google.pdf" target="_blank"> <i class="far fa-file-pdf"></i></a>
+        <h6>Health insurance:-</h6>
+        <a href="../files/Testing.pdf"  target="_blank"> <i class="far fa-file-pdf"></i></a>
+        <h6>Income tax Return:-</h6>
+        <a href="../files/Testing.pdf"><i class="far fa-file-pdf"></i> www.com</a>
+        <h6>Date of birth:-</h6>
+        <a href="../files/Testing.pdf" ><i class="far fa-file-pdf"></i> www.com</a>
+
+   	 
+   </div>
+
+   </div>
+  <br> 
+  <br>
+ <footer id="footer">
+       
+         
+        <div class="media">
+            <div class="row">
+                <div class="col-lg-12">
+                     <ul>
+                        <li><a href="https://www.ongcindia.com/wps/wcm/connect/en/citizen">Charter</a></li>
+                        <li><a href="https://www.ongcindia.com/wps/wcm/connect/en/rti">RTI</a></li>
+                        <li><a href="https://reports.ongc.co.in/wps/portal/vigilanceHome/!ut/p/z1/jY9PC4JAFMQ_SweP-V4WJt2WIPsDUURp7xKr2bqgu6JbS98-qWNlzW2G3wwMEMRAit-k4EZqxYvWH8k_jQM2na9G3hoXM8RtEB68Xbjx0B9A9ATwixgC_dPvAKh7PgL6hSyBRKGT1xumkmEggOrsktVZ7V7rNs6NqZqJgw5aa12tRCrVWXI31aWDn1q5bgzEbzBU5T7GPiV3y3oPl4s7ng!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/">Lodge comaplaint</a></li>
+                        <li><a href="https://grievance.ongc.co.in/">Public Greivances</a></li>
+                        <li><a href="https://www.ongcindia.com/wps/wcm/connect/en/sustainability/energy-center/about-us/vision-and-mission/vision-and-mission">ONGC Energy Center</a></li>
+                        <li><a href="https://startup.ongc.co.in/wps/wcm/connect/ongcstartup/home/">ONGC Start-up</a></li>
+                        <li><a href="https://epass.ongc.co.in/">Visitor Management System</a></li>
+                        <li><a href="https://www.ongcindia.com/ONGCPaymentGateway/mainPage">Online Paymeny</a></li>
+                    </ul>
+                </div>
+           </div>
+        
+        </div>
+           
+         
+         <div class="row">
+           <div class="container text-center ">
+            <div class="address text">
+                <p>Registered Office: Plot No. 5A- 5B Nelson Mandela Road, Vasant Kunj, New Delhi, 110070<br>
+                    Corporate Identity Number: L74899DL1993GOI054155<br>
+                    Telephone No. 011-26750998; Fax No: 011-26750991/ 26129091<br>
+                    For queries and grievances: Rakesh Ranjan, e-mail: <b>RANJAN2_RAKESH@ongc.co.in</b></p>
+            </div>
+           </div> 
+         
+       
+        </div>
+        <hr>
+     
+        <div class="row">
+            <div class="container">
+            
+                <div class="media-2">
+                      <ul>
+                        <li><a href="https://www.ongcindia.com/wps/wcm/connect/en/sitemap/sitemap">Sitemap</a></li>
+                        <li><a href="https://www.ongcindia.com/wps/wcm/connect/en/privacy-policy/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="https://www.ongcindia.com/wps/wcm/connect/en/terms+of+use/terms-of-use">Terms of Use</a></li>
+                        <li><a href="https://www.ongcindia.com/wps/wcm/connect/en/disclaimer/disclaimer">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row text-center">
+           
+                <p>&copy Copyright Oil and Natural Gas Corporation Ltd.</p>
+            
+        </div>
+
+       
+     </footer>
+
+</body>
+</html>

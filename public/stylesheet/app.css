@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+	height:100%;
+	width:100%;
+}
+.row{
+    margin: 0 !important;
+}
+
+.text-maroon{
+    color: #A41D23;
+}
+.maroon{
+  background-color: #A41D23;
+    
+}
+.media h4 {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    vertical-align: bottom;
+}
+.jumbotron p{
+    font-size: 14px;
+
+}
+.jumbotron .lead{
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.jumbotron .btn{
+    font-size: 1rem;
+}
+.search-bar{
+    margin-top: 2rem;
+}
+.search-bar input{
+    width: 50%;
+    height: 35px;
+    border-radius: 15px;
+    border:1px solid gray;
+    padding-left: 10px;
+    outline: none;
+}
+.search-bar button{
+    height: 32px;
+    width: 50px;
+    border-radius: 15px;
+    background-color: #A41D23;
+    border:1px solid gray;
+    color: white;
+    outline:none;
+}
+
+
+#top-border{
+  background-color: #A41D23;
+  height: 4px;
+  width: 100%;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 13px;
+    background-color:#eee ;
+
+}
+footer .media{
+    background-color: #A41D23;
+   padding-top:0.3rem;
+   font-weight: 600;
+  
+    
+}
+footer .media a {
+    color: white;
+    font-size: 13px;
+    outline: none;
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+  
+}
+footer ul li{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid white;
+}
+footer .address{
+    
+    line-height: 1.8;
+    padding-top: 0.5rem;
+}
+footer .address p{
+    margin-bottom: 0px;
+}
+footer .media-2 ul{
+margin: 0;    
+}
+footer .media-2 li{
+    border-right: 1px solid gray;
+    
+}
+footer .media-2 a {
+    color: black !important;
+    font-size: 13px;
+    outline: none;
+    text-decoration: none;
+}
+
+/* ************************************ Employee page ***************** */
+.profile
+{	width: 80%;
+}
+.profile img
+{
+   height: 100px;
+   width: 100px;
+}
+
+/* ************************************ show page ***************** */
+
+.avatar img
+{
+	height: 200px;
+	width: 200px;
+}
+
+.main ul{
+	list-style: none;
+}
+.main li{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h6+a{
+	color:black  ;
+}
+.bottom 
+{
+	position:absolute !important;
+}
+
